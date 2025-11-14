@@ -95,8 +95,8 @@ resource "aws_launch_template" "kotval_web_server_lt" {
 
 resource "aws_autoscaling_group" "web_asg" {
 
-  desired_capacity    = 2
-  max_size            = 3
+  desired_capacity    = 3
+  max_size            = 4
   min_size            = 1
   
 
